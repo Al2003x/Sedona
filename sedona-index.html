@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Седона</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="container">
+  <header class="main-header">
+    <nav class="main-navigation">
+      <ul class="main-navigation-list">
+        <li class="main-navigation-item">
+          <a href="#" class="main-navigation-link">Информация</a>
+        </li>
+        <li class="main-navigation-item">
+          <a href="#" class="main-navigation-link">Фото и видео</a>
+        </li>
+        <li class="main-navigation-item">
+          <a href="#" class="main-navigation-link">Карта штата</a>
+        </li>
+        <li class="main-navigation-item">
+          <a href="sedona-hotel.html" class="main-navigation-link">Гостиницы</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header-logo">
+      <a class="header-logo-link">
+        <img class="header-logo-img" src="img/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF.png" width="138" heigth="70" alt="Логотип">
+      </a>
+    </div>
+  </header>
+  <div class="promo">
+    <img class="promo-img" src="img/promo-img.jpg" width="768" heigth="513" alt="Sedona">
+  </div>
+  <main class="features">
+    <div class="features-header">
+      <h1 class="features-title">Седона - небольшой городок в Аризоне, заслуживающий большего!</h1>
+      <p class="features-description">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
+    </div>
+    <div class="feature-row clearfix">
+      <div class="feature-item">
+        <h2 class="feature-title">Настоящий<br> городок</h2>
+        <div class="feature-number">№1</div>
+        <p class="feature-text">Седона - не аттракцион для туристов, там течет своя жизнь</p>
+      </div>
+      <div class="feature-picture">
+        <img class="feature-picture-img" src="img/feature-picture-img-1.jpg" width="512" height="256" alt="picture-1">
+      </div>
+    </div>
+    <div class="feature-row feature-row__icon clearfix">
+      <div class="feature-point feature-point__home">
+        <h2 class="feature-title feature-title__icon">Жилье</h2>
+        <p class="feature-text feature-text__point">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+      </div>
+      <div class="feature-point feature-point__food">
+        <h2 class="feature-title feature-title__icon">Еда</h2>
+        <p class="feature-text feature-text__point">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+      </div>
+      <div class="feature-point feature-point__souvenirs">
+        <h2 class="feature-title feature-title__icon">Сувениры</h2>
+        <p class="feature-text feature-text__point">Не только китайского, но и местного производства!</p>
+      </div>
+    </div>
+    <div class="feature-row clearfix">
+      <div class="feature-picture feature-picture__invert">
+        <img class="feature-picture-img" src="img/feature-picture-img-2.jpg" width="512" height="256" alt="picture-2">
+      </div>
+      <div class="feature-item feature-item__invert">
+        <h2 class="feature-title">Там есть мост<br> дьявола</h2>
+        <div class="feature-number">№2</div>
+        <p class="feature-text">Да, нему можно пройти! Если конечно вы осмелитесь</p>
+      </div>
+    </div>
+    <div class="feature-row feature-row__slogan clearfix">
+      <div class="feature-point">
+        <h2 class="feature-title feature-title__point">Небольшая площадь</h2>
+        <div class="feature-number  feature-number__point">№3</div>
+        <p class="feature-text feature-text__point">Все достопримеча-тельности находятся очень близко</p>
+      </div>
+      <div class="feature-point">
+        <h2 class="feature-title feature-title__point">Красивая дорога</h2>
+        <div class="feature-number feature-number__point">№4</div>
+        <p class="feature-text feature-text__point">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+      </div>
+      <div class="feature-point">
+        <h2 class="feature-title feature-title__point">Мало<br>туристов</h2>
+        <div class="feature-number feature-number__point">№5</div>
+        <p class="feature-text feature-text__point">Большинство едет в Гранд Каньон и толпится там</p>
+      </div>
+    </div>
+    <div class="features-search">
+      <h2 class="search-title">Заинтересовались?</h2>
+      <p class="search-description">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+      <button class="btn btn-search" type="button">Поиск гостиницы в Седоне</button>
+    </div>
+    <div class="features-map">
+      <img class="features-map-img" src="img/map.jpg" width="768" height="593" alt="карта">
+      <form class="search-form" action="" method="post">
+        <div class="search-form-row">
+          <label class="search-form-field" for="arrival">Дата заезда:</label>
+          <input class="search-form-input" id="arrival" type="text" name="arrival" placeholder="24 апреля 2017">
+          <button class="search-form-calendar" type="button" title="Календарь">календарь</button>
+        </div>
+        <div class="search-form-row">
+          <label class="search-form-field" for="departure">Дата выезда:</label>
+          <input class="search-form-input" id="departure" type="text" name="departure" placeholder="4 июля 2017">
+          <button class="search-form-calendar" type="button" title="Календарь">календарь</button>
+        </div>
+        <div class="search-form-row">
+          <div class="search-form-col">
+            <label class="search-form-field" for="adults">Взрослые:</label>
+            <div class="search-form-number">
+              <button class="btn btn-number-minus" type="button" title="Минус"></button>
+              <input class="number-input" id="adults" type="text" name="adults">
+              <button class="btn btn-number-plus" type="button" title="Плюс"></button>
+            </div>
+          </div>
+          <div class="search-form-col">
+            <label class="search-form-field" for="children">Дети:</label>
+            <div class="search-form-number">
+              <button class="btn btn-number-minus" type="button" title="Минус"></button>
+              <input class="number-input" id="children" type="text" name="children">
+              <button class="btn btn-number-plus" type="button" title="Плюс"></button>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-search-form" type="button">Найти</button>
+      </form>
+    </div>
+  </main>
+  <footer class="main-footer clearfix">
+    <div class="footer-hashtag">
+      <a href="#" class="footer-hashtag-link">#visitsedona</a>
+    </div>
+    <div class="footer-social">
+      <a class="social-btn social-btn__tw" href="#">твиттер</a>
+      <a class="social-btn social-btn__fb" href="#">фейсбук</a>
+      <a class="social-btn social-btn__yt" href="#">ютуб</a>
+    </div>
+    <div class="footer-copyrigth">
+      <span class="footer-copyrigth-text">Website by</span>
+      <a class="footer-copyrigth-link" href="#">
+        <img class="footer-copyrigth-link-img" src="img/html.png" width="113" height="39" alt="htmlacademy">
+      </a>
+    </div>
+  </footer>
+</body>
+
+</html>
